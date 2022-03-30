@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* Navigation Bar */
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Home Button */
+
+.home {
+    width: 117px;
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+
+.home-img {
+    height: 65px;
+}
+
+/* Search Bar */
+
+.search {
+    margin-left: 220px;
+    padding: 10px 10px;
+    display: flex;
+}
+
+.search-bar {
+    margin-top: 8px;
+    padding: 10px 0px;
+    height: 35px;
+}
+
+#search-input {
+    height: 25px;
+    width: 450px;
+}
+
+.search-btn {
+    margin-top: 8px;
+    height: 54px;
+}
+
+#search-btn {
+    padding-top: 3px;
+    height: 31px;
+    width: 54px;
+    margin: 10px 0px 0px -54px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#search-btn:hover {
+    cursor: pointer;
+}
