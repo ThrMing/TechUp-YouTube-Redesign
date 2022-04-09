@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "A Better YouTube",
+  "description": "Enjoy a better YouTube experience with a modernised and categorised layout for easier searching of relevant content.",
+  "version": "0.1",
+  "content_scripts":[{
+      "matches": ["https://www.youtube.com/"],
+      "css": ["test.css"]
+    }
+  ]
+}
