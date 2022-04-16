@@ -139,4 +139,5 @@ img {vertical-align: middle;}
 .video {
     float: left;
     width: 33.33%;
+    border-style: solid;
   }
