@@ -137,8 +137,22 @@ img {vertical-align: middle;}
 }
 
 .video {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+.column {
     float: left;
-    width: 33.33%;
-    height: 100%;
-    border-style: solid;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
