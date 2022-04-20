@@ -98,6 +98,7 @@ img {vertical-align: middle;}
     cursor: pointer;
     position: absolute;
     top: 50%;
+    font-size: 80px !important;
     width: auto;
     padding: 16px;
     margin-top: -22px;
